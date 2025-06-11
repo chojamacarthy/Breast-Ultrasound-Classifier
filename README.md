@@ -6,6 +6,10 @@ This repository holds the datasets and code used to train and evaluate various D
 
 ## Project Details
 
+Dependencies
+env
+packages
+
 
 ## Dataset
 
@@ -20,6 +24,21 @@ A full description of the data set with access linkes has been provided below
 | [BUSBRA](https://zenodo.org/records/8231412) | 1268 | 607 |
 | [BUS](https://helward.mmu.ac.uk/STAFF/M.Yap/dataset.php) | 109 | 54 |
 | [BUSI](https://helward.mmu.ac.uk/STAFF/M.Yap/dataset.php) | 437 | 210 |
+
+### Dataset Structure
+
+```
+split
+├── test
+│   ├── benign
+│   └── malignant
+├── train
+│   ├── benign
+│   └── malignant
+└── val
+    ├── benign
+    └── malignant
+```
 
 ## Results
 
