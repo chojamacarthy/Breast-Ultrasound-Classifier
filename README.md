@@ -39,7 +39,7 @@ Full_Dataset
 
 ## Model Metrics
 
-| Model | Model Size | Number of Parameters | Accuracy | Precision | Recall | F1 Score |
+| Model | Model Size (MB) | Number of Parameters | Accuracy | Precision | Recall | F1 Score |
 |---|---|---|---|---|---|---|
 | Efficientnet_v2_m | 727.67 | 53,680,758 | 0.8211 | 0.8209 | 0.8211 | 0.821 |
 | ResNet50 | 376.82 | 23,512,130 | 0.8075 | 0.8082 | 0.8075 | 0.8078 |
